@@ -19,7 +19,13 @@ body {
     grid-area: footer; }
   body .grid-container {
     display: grid;
-    grid-template-areas: "header header header header header header" "main   main   main   main   main   main" "footer footer footer footer footer footer"; }
+    grid-template-areas: "header " "main   " "footer "; }
   body .flex-container {
     display: flex;
     justify-content: space-between; }
+
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }

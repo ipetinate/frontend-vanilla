@@ -6,7 +6,8 @@ main .card {
   background-color: white;
   position: relative;
   border-radius: 5px;
-  padding: 10px;
+  padding: 5px;
+  margin: 15px;
   height: 350px;
   width: 500px; }
   main .card .card-image {
@@ -14,3 +15,5 @@ main .card {
   main .card .card-title {
     font-family: 'Play', sans-serif;
     margin: 10px 0; }
+  main .card .card-actions {
+    font-family: 'Play', sans-serif; }

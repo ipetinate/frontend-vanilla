@@ -16,7 +16,8 @@ main {
     background-color: $branco;
     position: relative;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
+    margin: 15px;
     height: 350px;
     width: 500px;
     .card-image {
@@ -27,7 +28,7 @@ main {
       margin: 10px 0;
     }
     .card-actions {
-      
+      font-family: 'Play', sans-serif;
     }
   }
 }

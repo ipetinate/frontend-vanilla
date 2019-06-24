@@ -17,26 +17,27 @@ body {
   font-family: "Play", sans-serif;
   width: 100%;
 
-  .item1 {
-    grid-area: header;
-  }
-  .item2 {
-    grid-area: main;
-  }
-  .item3 {
-    grid-area: footer;
-  }
+  .item1 { grid-area: header; }
+  .item2 { grid-area: main; }
+  .item3 { grid-area: footer; }
 
   .grid-container {
     display: grid;
     grid-template-areas:
-      "header header header header header header"
-      "main   main   main   main   main   main"
-      "footer footer footer footer footer footer";
+      "header "
+      "main   "
+      "footer ";
   }
 
   .flex-container {
     display: flex;
     justify-content: space-between;
   }
+}
+
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
