@@ -18,7 +18,7 @@
 
 > Tecnologias
 
--Linguagens
+- Linguagens
   - HTML5
   - SASS/SCSS e CSS
   - JavaScript
