@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Play", sans-serif;
+  src: url("../fonts/Play-Regular.ttf"); }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+body {
+  font-family: "Play", sans-serif;
+  width: 100%; }
+  body .item1 {
+    grid-area: header; }
+  body .item2 {
+    grid-area: main; }
+  body .item3 {
+    grid-area: footer; }
+  body .grid-container {
+    display: grid;
+    grid-template-areas: "header header header header header header" "main   main   main   main   main   main" "footer footer footer footer footer footer"; }
+  body .flex-container {
+    display: flex;
+    justify-content: space-between; }

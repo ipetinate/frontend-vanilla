@@ -1,0 +1,76 @@
+// Cores
+$vermelho: rgb(182, 59, 59);
+$branco: rgb(255, 255, 255);
+$verde: rgb(0, 150, 62);
+$preto: rgb(0, 0, 0);
+$ciano: rgb(0, 218, 247);
+$roxo: rgb(58, 0, 112);
+$azul: rgba(0, 60, 94, 0.363);
+
+// Telas de 768px
+.iconeMenu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  // Animacao
+  .animated {
+    background-color: $roxo;
+    background-repeat: no-repeat;
+    padding-top: 95px;
+    margin-bottom: 60px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-50px);
+    }
+    //
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+    }
+  }
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    //
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  //Logica do Menu dropdown
+  .toolbarLinks {
+    position: relative;
+    .esconder {
+      display: none;
+    }
+    .mostrar {
+      display: block;
+    }
+    //
+    .fadeInLeft {
+      -webkit-animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
+    }
+    //
+    ul {
+      margin-top: 23px;
+      width: 100%;
+      background-color: $roxo;
+      flex-direction: column;
+    }
+    .iconeMenu {
+      color: $branco;
+      font-size: 35px;
+      display: block;
+    }
+  }
+}

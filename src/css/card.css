@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Play', sans-serif;
+  src: url("../fonts/Play-Regular.ttf"); }
+
+main .card {
+  background-color: white;
+  position: relative;
+  border-radius: 5px;
+  padding: 10px;
+  height: 350px;
+  width: 500px; }
+  main .card .card-image {
+    border-width: 0px; }
+  main .card .card-title {
+    font-family: 'Play', sans-serif;
+    margin: 10px 0; }

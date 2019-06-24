@@ -1,0 +1,42 @@
+// Fonte
+@font-face {
+  font-family: "Play", sans-serif;
+  src: url("../fonts/Play-Regular.ttf");
+}
+
+// Corpo
+html,
+body {
+  //box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Play", sans-serif;
+  width: 100%;
+
+  .item1 {
+    grid-area: header;
+  }
+  .item2 {
+    grid-area: main;
+  }
+  .item3 {
+    grid-area: footer;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "header header header header header header"
+      "main   main   main   main   main   main"
+      "footer footer footer footer footer footer";
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}

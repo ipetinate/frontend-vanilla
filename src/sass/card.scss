@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Play', sans-serif;
+  src: url('../fonts/Play-Regular.ttf');
+}
+
+$vermelho:    rgb(182, 59, 59);
+$branco:      rgb(255, 255, 255);
+$verde:       rgb(0, 150, 62);
+$preto:       rgb(0, 0, 0);
+$ciano:       rgb(0, 218, 247);
+$roxo:        rgb(58, 0, 112);
+$azul:        rgba(0, 60, 94, 0.363);
+
+main {
+  .card {
+    background-color: $branco;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px;
+    height: 350px;
+    width: 500px;
+    .card-image {
+      border-width: 0px;
+    }
+    .card-title {
+      font-family: 'Play', sans-serif;
+      margin: 10px 0;
+    }
+    .card-actions {
+      
+    }
+  }
+}
