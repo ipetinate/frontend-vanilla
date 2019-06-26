@@ -2,15 +2,15 @@
   font-family: "Play", sans-serif;
   src: url("../fonts/Play-Regular.ttf"); }
 
-html,
-body {
+body, html {
   margin: 0;
   padding: 0;
-  border: 0; }
+  border: 0;
+  width: 100%;
+  height: 100%; }
 
 body {
-  font-family: "Play", sans-serif;
-  width: 100%; }
+  font-family: "Play", sans-serif; }
   body .item1 {
     grid-area: header; }
   body .item2 {
@@ -20,6 +20,8 @@ body {
   body .grid-container {
     display: grid;
     grid-template-areas: "header " "main   " "footer "; }
+  body main {
+    margin-top: 20px; }
   body .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -29,11 +31,31 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     justify-content: center; }
-  body main {
-    margin-top: 20px; }
+  body .center {
+    justify-content: center;
+    align-content: center;
+    text-align: center; }
+  body .vertical-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+  body .fixo {
+    position: fixed; }
   body .purple {
     color: #6c00d1; }
   body .green {
     color: #00963e; }
   body .cyan {
     color: #00daf7; }
+  body .cinza {
+    color: #454545; }
+  body .links a {
+    text-decoration: none;
+    cursor: pointer; }
+    body .links a:hover {
+      text-shadow: black 2px 0;
+      color: #00963e; }
+    body .links a:active {
+      color: black; }
+  body .links ul {
+    list-style: none; }

@@ -4,20 +4,20 @@
 }
 
 $vermelho: rgb(182, 59, 59);
-$branco: rgb(255, 255, 255);
-$verde: rgb(0, 150, 62);
-$preto: rgb(0, 0, 0);
-$ciano: rgb(0, 218, 247);
-$roxo: rgb(58, 0, 112);
-$azul: rgba(0, 60, 94, 0.363);
+$branco:   rgb(255, 255, 255);
+$verde:    rgb(0, 150, 62);
+$preto:    rgb(0, 0, 0);
+$ciano:    rgb(0, 218, 247);
+$roxo:     rgb(58, 0, 112);
+$azul:     rgba(0, 60, 94, 0.363);
 
 main {
   .card {
     background-color: $branco;
+    padding-bottom: 1px;
     border-radius: 10px;
     max-height: 350px;
     max-width: 500px;
-    padding-bottom: 1px;
     margin: 15px;
   }
   .card-image {

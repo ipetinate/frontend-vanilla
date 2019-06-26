@@ -4,10 +4,10 @@
 
 main .card {
   background-color: white;
+  padding-bottom: 1px;
   border-radius: 10px;
   max-height: 350px;
   max-width: 500px;
-  padding-bottom: 1px;
   margin: 15px; }
 
 main .card-image img {
