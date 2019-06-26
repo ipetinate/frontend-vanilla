@@ -1,19 +1,60 @@
 @font-face {
-  font-family: 'Play', sans-serif;
+  font-family: "Play", sans-serif;
   src: url("../fonts/Play-Regular.ttf"); }
 
 main .card {
   background-color: white;
-  position: relative;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 15px;
-  height: 350px;
-  width: 500px; }
-  main .card .card-image {
-    border-width: 0px; }
-  main .card .card-title {
-    font-family: 'Play', sans-serif;
-    margin: 10px 0; }
-  main .card .card-actions {
-    font-family: 'Play', sans-serif; }
+  border-radius: 10px;
+  max-height: 350px;
+  max-width: 500px;
+  padding-bottom: 1px;
+  margin: 15px; }
+
+main .card-image img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100%;
+  width: 100%; }
+
+main .card-title {
+  font-family: "Play", sans-serif;
+  font-size: 20px;
+  margin: 10px; }
+
+main .card-subtitle {
+  font-family: "Play", sans-serif;
+  font-size: 15px;
+  margin: 10px; }
+
+main .card-description {
+  font-family: "Play", sans-serif;
+  font-size: 10px;
+  margin: 10px; }
+
+main .card-actions {
+  font-family: "Play", sans-serif;
+  font-size: 25px;
+  margin: 10px; }
+
+main .card-button {
+  margin: 10px; }
+  main .card-button button {
+    background-color: #4caf50;
+    /* Green */
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+    border: none; }
+  main .card-button .green {
+    background-color: white;
+    color: black;
+    border: 2px solid #4caf50; }
+    main .card-button .green:hover {
+      background-color: #4caf50;
+      /* Green */
+      color: white; }
