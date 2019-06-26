@@ -45,11 +45,15 @@ body {
     justify-content: space-between;
   }
 
-  main {
-    margin-top: 20px;
+  .flex-container-center {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     justify-content: center;
+  }
+
+  main {
+    margin-top: 20px;
   }
   // Color classes
   .purple {

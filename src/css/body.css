@@ -24,11 +24,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
-  body main {
-    margin-top: 20px;
+  body .flex-container-center {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     justify-content: center; }
+  body main {
+    margin-top: 20px; }
   body .purple {
     color: #6c00d1; }
   body .green {
