@@ -36,7 +36,6 @@ body {
     align-content: center;
     text-align: center; }
   body .vertical-center {
-    position: relative;
     top: 50%;
     transform: translateY(-50%); }
   body .fixo {
@@ -57,5 +56,3 @@ body {
       color: #00963e; }
     body .links a:active {
       color: black; }
-  body .links ul {
-    list-style: none; }
