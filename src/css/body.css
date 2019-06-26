@@ -38,6 +38,46 @@ body {
   body .vertical-center {
     top: 50%;
     transform: translateY(-50%); }
+  body .p5 {
+    padding: 5px; }
+  body .p10 {
+    padding: 10px; }
+  body .p15 {
+    padding: 15px; }
+  body .p20 {
+    padding: 20px; }
+  body .pt5 {
+    padding-top: 5px; }
+  body .pt10 {
+    padding-top: 10px; }
+  body .pt15 {
+    padding-top: 15px; }
+  body .pt20 {
+    padding-top: 20px; }
+  body .pb5 {
+    padding-bottom: 5px; }
+  body .pb10 {
+    padding-bottom: 10px; }
+  body .pb15 {
+    padding-bottom: 15px; }
+  body .pb20 {
+    padding-bottom: 20px; }
+  body .pl5 {
+    padding-left: 5px; }
+  body .pl10 {
+    padding-left: 10px; }
+  body .pl15 {
+    padding-left: 15px; }
+  body .pl20 {
+    padding-left: 20px; }
+  body .pr5 {
+    padding-right: 5px; }
+  body .pr10 {
+    padding-right: 10px; }
+  body .pr15 {
+    padding-right: 15px; }
+  body .pr20 {
+    padding-right: 20px; }
   body .fixo {
     position: fixed; }
   body .purple {
@@ -46,8 +86,14 @@ body {
     color: #00963e; }
   body .cyan {
     color: #00daf7; }
-  body .cinza {
+  body .darkblue {
+    color: rgba(0, 60, 94, 0.363); }
+  body .darkgrey {
     color: #454545; }
+  body .bg-darkblue {
+    background-color: rgba(0, 60, 94, 0.363); }
+  body .links ul {
+    list-style: none; }
   body .links a {
     text-decoration: none;
     cursor: pointer; }
@@ -56,3 +102,5 @@ body {
       color: #00963e; }
     body .links a:active {
       color: black; }
+  body .logo img {
+    width: 50px; }

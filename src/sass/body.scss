@@ -60,14 +60,42 @@ body {
     top: 50%;
     transform: translateY(-50%);
   }
+  // Padding Classes
+  .p5   { padding: 5px }
+  .p10  { padding: 10px }
+  .p15  { padding: 15px }
+  .p20  { padding: 20px }
+  .pt5  { padding-top: 5px }
+  .pt10 { padding-top: 10px }
+  .pt15 { padding-top: 15px }
+  .pt20 { padding-top: 20px }
+  .pb5  { padding-bottom: 5px; }
+  .pb10 { padding-bottom: 10px; }
+  .pb15 { padding-bottom: 15px; }
+  .pb20 { padding-bottom: 20px; }
+  .pl5  { padding-left: 5px; }
+  .pl10 { padding-left: 10px; }
+  .pl15 { padding-left: 15px; }
+  .pl20 { padding-left: 20px; }
+  .pr5  { padding-right: 5px; }
+  .pr10 { padding-right: 10px; }
+  .pr15 { padding-right: 15px; }
+  .pr20 { padding-right: 20px; }
+  // Position Classes
   .fixo { position: fixed; }
   // Color classes
   .purple { color: $roxo;  }
   .green  { color: $verde; }
   .cyan   { color: $ciano; }
-  .cinza  { color: $cinza  }
+  .darkblue  { color: $azul  }
+  .darkgrey  { color: $cinza }
+  // Background color classes
+  .bg-darkblue  { background-color: $azul  }
   // Classes de Link
   .links {
+    ul {
+      list-style: none;
+    }
     a {
       text-decoration: none;
       cursor: pointer;
@@ -78,6 +106,12 @@ body {
       &:active {
         color: $preto;
       }
+    }
+  }
+  // Image class helpers
+  .logo {
+    img {
+      width: 50px;
     }
   }
 }
