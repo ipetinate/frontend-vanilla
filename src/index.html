@@ -13,8 +13,11 @@
   <link rel="stylesheet"    href="./css/footer.css">
   <link rel="stylesheet"    href="./css/body.css">
   <link rel="stylesheet"    href="./css/card.css">
+  <!-- HTML Imports -->
+  <link rel="import" href="./pages/main.html">
   <!-- Scripts JS -->
   <script type="module" src="./js/menu-mobile.js"></script>
+  <script src="CoolTimer.js"></script>
 </head>
 
 <body>
@@ -43,45 +46,25 @@
     </header>
     <!--  -->
     <main id="main" class="item2">
-      <div class="card-container flex-container-center">
-        <div class="card">
-          <div class="card-image">
-            <img src="./img/js.gif" alt="Imagem dinamica">
-          </div>
-          <div class="card-title">JavaScript</div>
-          <div class="card-description">
-            <p>Conheca um pouco mais sobre o JavaScript, uma linguagem de script super poderosa, simples, com diversos objetivos e que vai te fazer repensar sobre a web.</p>
-          </div>
-          <div class="card-button">
-            <button class="green"> Acessar</button>
-          </div>
-        </div>
-        <!--  -->
-        <div class="card">
-          <div class="card-image">
-            <img src="./img/js.gif" alt="Imagem dinamica">
-          </div>
-          <div class="card-title">JavaScript</div>
-          <div class="card-description">
-            <p>Conheca um pouco mais sobre o JavaScript, uma linguagem de script super poderosa, simples, com diversos objetivos e que vai te fazer repensar sobre a web.</p>
-          </div>
-          <div class="card-button">
-            <button class="green"> Acessar</button>
-          </div>
-        </div>
-      </div>
+      <cool-timer></cool-timer>
     </main>
     <!--  -->
     <footer id="footer" class="item3">
       <div class="menu-mobile flex-container">
         <div class="box">
-          <span class="mdi mdi-home green"></span>
+          <a href="index.html">
+            <span class="mdi mdi-home green"></span>
+          </a>
         </div>
         <div class="box">
-          <span class="mdi mdi-information color cyan"></span>
+          <a href="#">
+            <span class="mdi mdi-information color cyan"></span>
+          </a>
         </div>
         <div class="box">
-          <span class="mdi mdi-github-circle purple"></span>
+          <a href="https://github.com/IsacPetinate/crud-js" target="_blank">
+            <span class="mdi mdi-github-circle purple"></span>
+          </a>
         </div>
       </div>
     </footer>
