@@ -1,3 +1,5 @@
+navigator.serviceWorker.register('./sw.js')
+
 var CACHE_NAME = 'vanilla-cache';
 var urlsToCache = [
   '/',
@@ -11,15 +13,13 @@ var urlsToCache = [
   './src/js/main.js',
 ];
 
-
-
 self.addEventListener('install', function (event) {
   // Perform install steps
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function (cache) {
         console.log('Opened cache');
-        return cache.addAll(urlsToCache, { mode: 'no-cors' });
+        return cache.addAll(urlsToCache);
       })
   );
 });
