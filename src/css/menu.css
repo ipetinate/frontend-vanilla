@@ -1,5 +1,6 @@
 .iconeMenu {
-  display: none; }
+  display: none;
+}
 
 @media (max-width: 768px) {
   .animated {
@@ -10,36 +11,50 @@
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-animation-fill-mode: both;
-    animation-fill-mode: both; }
+    animation-fill-mode: both;
+  }
   @-webkit-keyframes fadeInLeft {
     0% {
       opacity: 0;
-      -webkit-transform: translateY(-50px); }
+      -webkit-transform: translateY(-50px);
+    }
     100% {
       opacity: 1;
-      -webkit-transform: translateY(0); } }
+      -webkit-transform: translateY(0);
+    }
+  }
   @keyframes fadeInLeft {
     0% {
       opacity: 0;
-      transform: translateY(-50px); }
+      transform: translateY(-50px);
+    }
     100% {
       opacity: 1;
-      transform: translateY(0); } }
+      transform: translateY(0);
+    }
+  }
   .toolbarLinks {
-    position: relative; }
-    .toolbarLinks .esconder {
-      display: none; }
-    .toolbarLinks .mostrar {
-      display: block; }
-    .toolbarLinks .fadeInLeft {
-      -webkit-animation-name: fadeInLeft;
-      animation-name: fadeInLeft; }
-    .toolbarLinks ul {
-      margin-top: 23px;
-      width: 100%;
-      background-color: #3a0070;
-      flex-direction: column; }
-    .toolbarLinks .iconeMenu {
-      color: white;
-      font-size: 35px;
-      display: block; } }
+    position: relative;
+  }
+  .toolbarLinks .esconder {
+    display: none;
+  }
+  .toolbarLinks .mostrar {
+    display: block;
+  }
+  .toolbarLinks .fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+  }
+  .toolbarLinks ul {
+    margin-top: 23px;
+    width: 100%;
+    background-color: #3a0070;
+    flex-direction: column;
+  }
+  .toolbarLinks .iconeMenu {
+    color: white;
+    font-size: 35px;
+    display: block;
+  }
+}

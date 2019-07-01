@@ -10,15 +10,29 @@
   <!-- Manifest -->
   <link rel="manifest" href="./manifest.json">
   <!-- Link Tags -->
-  <link rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.7.95/css/materialdesignicons.css">
-  <link rel="stylesheet"    href="./src/css/background.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/3.7.95/css/materialdesignicons.css">
+  <link rel="stylesheet" href="./src/css/background.css">
   <link rel="shortcut icon" href="./src/img/favicon.ico">
-  <link rel="stylesheet"    href="./src/css/footer.css">
-  <link rel="stylesheet"    href="./src/css/body.css">
-  <link rel="stylesheet"    href="./src/css/card.css">
-  <link rel="stylesheet"    href="./src/css/menu.css">
+  <link rel="stylesheet" href="./src/css/footer.css">
+  <link rel="stylesheet" href="./src/css/body.css">
+  <link rel="stylesheet" href="./src/css/card.css">
+  <link rel="stylesheet" href="./src/css/menu.css">
   <!-- Scripts JS -->
   <script type="module" src="./src/js/ios_splash.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/sw.js').then(function (registration) {
+          // Registration was successful
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+          // registration failed :(
+          console.log('ServiceWorker registration failed: ', err);
+        });
+      });
+    }
+  </script>
 </head>
 
 <body>
@@ -32,7 +46,8 @@
         <div class="left-links links pr20 pt5 pb5">
           <ul class="esconder flex-container">
             <li>
-              <a class="cyan pa5 vertical-center" href="https://github.com/IsacPetinate/frontend-vanilla" target="_blank">
+              <a class="cyan pa5 vertical-center" href="https://github.com/IsacPetinate/frontend-vanilla"
+                target="_blank">
                 <i class="mdi mdi-github-circle"></i> GITHUB
               </a>
             </li>
