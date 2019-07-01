@@ -1,5 +1,5 @@
-var CACHE_NAME = 'vanilla-cache-v1';
-var urlsToCache = [
+let CACHE_NAME = 'vanilla-cache-v1';
+let urlsToCache = [
   '/',
   './src/css/background.css',
   './src/css/footer.css',
