@@ -8,6 +8,8 @@
       visibility: hidden; } }
 
 @media (max-width: 500px) {
+  .left-icons {
+    display: none; }
   footer {
     width: 100%;
     height: 100px; }
