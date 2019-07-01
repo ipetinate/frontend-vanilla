@@ -2,6 +2,7 @@ let CACHE_NAME = 'vanilla-cache-v1';
 let urlsToPrefetch = []
 let urlsToCache = [
   '/',
+  './index.html',
   './src/css/background.css',
   './src/css/footer.css',
   './src/css/card.css',
