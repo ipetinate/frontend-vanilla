@@ -1,7 +1,6 @@
 {
   "name": "Frontend Vanilla",
   "short_name": "FEV",
-  "start_url": ".",
   "display": "standalone",
   "lang": "pt-br",
   "background_color": "#fff",
