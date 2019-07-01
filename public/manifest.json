@@ -1,7 +1,7 @@
 {
   "name": "Frontend Vanilla",
   "short_name": "FVanilla",
-  "start_url": "/frontend-vanilla/",
+  "start_url": "/",
   "display": "standalone",
   "lang": "pt-br",
   "background_color": "#fff",
