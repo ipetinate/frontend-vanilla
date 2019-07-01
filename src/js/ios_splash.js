@@ -1,6 +1,6 @@
 
 //CHANGE TO REFLECT EXTRACTED IMAGE PATH
-var img_path = 'ios/';
+var img_path = './src/img/ios/';
 
 //IOS DETECTION
 var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);

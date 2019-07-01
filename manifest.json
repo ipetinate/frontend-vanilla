@@ -8,7 +8,7 @@
   "theme_color": "aliceblue",
   "description": "App de estudo da stack default de frontend",
   "icons": [{
-    "src": "./ios/node.png",
+    "src": "./src/img/ios/node.png",
     "sizes": "144x144",
     "type": "image/png"
   }]
