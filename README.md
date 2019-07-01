@@ -1,4 +1,4 @@
-# Sistema de CRUD Complexo
+# Projeto Frontend [stack default vanilla]
 
 > Informacoes do Projeto
 
