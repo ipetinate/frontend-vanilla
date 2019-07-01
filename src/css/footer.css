@@ -8,7 +8,7 @@
       visibility: hidden; } }
 
 @media (max-width: 500px) {
-  .left-icons {
+  .left-links {
     display: none; }
   footer {
     width: 100%;
