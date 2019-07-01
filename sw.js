@@ -1,4 +1,4 @@
-var CACHE_NAME = 'vanilla-cache';
+var CACHE_NAME = 'vanilla-cache-v1';
 var urlsToCache = [
   '/',
   './src/css/background.css',
