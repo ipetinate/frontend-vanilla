@@ -1,5 +1,3 @@
-navigator.serviceWorker.register('./sw.js')
-
 var CACHE_NAME = 'vanilla-cache';
 var urlsToCache = [
   '/',
