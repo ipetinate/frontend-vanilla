@@ -1,6 +1,7 @@
 {
   "name": "Frontend Vanilla",
-  "short_name": "FEV",
+  "short_name": "FVanilla",
+  "start_url": "https://isacpetinate.github.io/frontend-vanilla/",
   "display": "standalone",
   "lang": "pt-br",
   "background_color": "#fff",
