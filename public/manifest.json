@@ -6,5 +6,10 @@
   "lang": "pt-br",
   "background_color": "#fff",
   "theme_color": "aliceblue",
-  "description": "App de estudo da stack default de frontend"
+  "description": "App de estudo da stack default de frontend",
+  "icons": [{
+    "src": "../src/img/favicon.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }]
 }
