@@ -1,4 +1,5 @@
 let CACHE_NAME = 'vanilla-cache-v1';
+let urlsToPrefetch = []
 let urlsToCache = [
   '/',
   './src/css/background.css',
@@ -17,7 +18,11 @@ self.addEventListener('install', function (event) {
     caches.open(CACHE_NAME)
       .then(function (cache) {
         console.log('Opened cache');
-        return cache.addAll(urlsToCache);
+        return cache.addAll(urlsToPrefetch.map(function(urlToPrefetch) {
+          return new Request(urlToPrefetch, { mode: 'no-cors' });
+        })).then(function() {
+          console.log('All resources have been fetched and cached.');
+        });
       })
   );
 });
