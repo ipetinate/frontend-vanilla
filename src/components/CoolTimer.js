@@ -2,10 +2,11 @@ class CoolTimer extends HTMLElement {
   constructor() {
     super()
 
-    const template = document.getElementById('cool-timer')
-    const templateContent = template.contentEditable
+    const template = document.createElement('div').id('cool-timer')
 
-    const shadowRoot = this.attachShadow({ mode: 'open'}) .appendChild(templateContent.cloneNode(true))
+    const shadowRoot = template.attachShadow({ mode: 'open'})
+    
+    shadowRoot.appendChild(template.cloneNode(true))
   }
 
   connectedCallback() {
