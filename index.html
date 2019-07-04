@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="./src/css/menu.css">
   <!-- Scripts JS -->
   <script type="module" src="./src/js/ios_splash.js"></script>
+  <script type="module" src="./src/components/Card.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
@@ -62,7 +63,12 @@
     </header>
     <!--  -->
     <main id="main" class="item2">
-      
+      <meu-card class="flex-container-center"
+                src="./src/img/js.gif"
+                title="JavaScript TOOOP"
+                description="JavaScript é muito top, voce precisa conhecer" 
+                buttonTitle="Conhecer"
+      ></meu-card>
     </main>
     <!--  -->
     <footer id="footer" class="item3">
