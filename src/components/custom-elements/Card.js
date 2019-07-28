@@ -26,60 +26,64 @@ class MeuCard extends HTMLElement {
       max-width: 500px;
       margin: 15px;
     }
-     .card-image img {
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .card-image img {
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       height: 100%;
       width: 100%;
     }
     
-     .card-title {
+    .card-title {
       font-family: "Play", sans-serif;
       font-size: 20px;
       margin: 10px;
     }
     
-     .card-subtitle {
+    .card-subtitle {
       font-family: "Play", sans-serif;
       font-size: 15px;
       margin: 10px;
     }
     
-     .card-description {
+    .card-description {
       font-family: "Play", sans-serif;
       font-size: 10px;
       margin: 10px;
     }
     
-     .card-actions {
+    .card-actions {
       font-family: "Play", sans-serif;
       font-size: 25px;
-      margin: 10px; }
-       .card-button {
-        margin: 10px;
-      }
+      margin: 10px; 
+    }
+    .card-button {
+      margin: 10px;
+    }
       
-      .card-button button {
-        background-color: #4caf50;
-        display: inline-block;
-        text-decoration: none;
-        text-align: center;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-size: 15px;
-        cursor: pointer;
-        color: white;
-        border: none;
-      }
-      .card-button .green {
-        background-color: white;
-        color: black;
-        border: 2px solid #4caf50;
-      }
-      .card-button .green:hover {
-        background-color: #4caf50;
-        color: white;
-      }
+    .card-button button {
+      background-color: #4caf50;
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      color: white;
+      border: none;
+    }
+    .card-button .green {
+      background-color: white;
+      color: black;
+      border: 2px solid #4caf50;
+    }
+    .card-button .green:hover {
+      background-color: #4caf50;
+      color: white;
+    }
     </style>
 
     <div class="card-container flex-container-center">
